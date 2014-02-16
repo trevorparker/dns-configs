@@ -1,0 +1,19 @@
+$ORIGIN gyp.se.
+$TTL 1h
+
+@ IN SOA ns2.he.net. dns.trevorparker.com. (
+    2014021600      ; serial
+    1d              ; refresh
+    2h              ; retry
+    4w              ; expire
+    1h              ; min ttl
+)
+
+@                   IN NS    ns2.he.net.
+@                   IN NS    ns3.he.net.
+@                   IN NS    ns4.he.net.
+@                   IN NS    ns5.he.net.
+
+@           5m      IN A     66.228.38.73
+
+www         5m      IN A     66.228.38.73

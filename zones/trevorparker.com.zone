@@ -1,0 +1,47 @@
+$ORIGIN trevorparker.com.
+$TTL 1h
+
+@ IN SOA ns2.he.net. dns.trevorparker.com. (
+    2014021601      ; serial
+    1d              ; refresh
+    2h              ; retry
+    4w              ; expire
+    1h              ; min ttl
+)
+
+@                   IN NS    ns2.he.net.
+@                   IN NS    ns3.he.net.
+@                   IN NS    ns4.he.net.
+@                   IN NS    ns5.he.net.
+
+@                   IN MX    10 in1-smtp.messagingengine.com.
+@                   IN MX    20 in2-smtp.messagingengine.com.
+
+@                   IN TXT   "v=spf1 include:spf.messagingengine.com -all"
+@                   IN SPF   "v=spf1 include:spf.messagingengine.com -all"
+
+mesmtp._domainkey   IN TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCl0kJuDfycTEp/30iGUezIS289XFHIHWat/OXgbvXeU+tBKrJGr72a6OFR6B7Ycz1Zrxte30pNZbimDEiCShEjnFk+W9U2Z9p9lAwvk92pvIRXkk6Ax7FLPSZJ+sFZQoWU5OF2eamVyLKbKHiNni6CzIFU7x2h12ycCmGwrK3D2QIDAQAB"
+
+@           5m      IN A     50.116.61.233
+@           5m      IN AAAA  2600:3c03::1d:4700
+
+www         5m      IN A     50.116.61.233
+www         5m      IN AAAA  2600:3c03::1d:4700
+
+blueshift           IN A     66.228.38.73
+blueshift           IN AAAA  2600:3c03::1d:4100
+
+flux                IN A     162.217.113.102
+
+mc          5m      IN A     66.228.38.73
+
+rigel               IN A     50.116.61.233
+rigel               IN AAAA  2600:3c03::1d:4700
+
+test        5m      IN A     96.126.109.21
+test        5m      IN A     66.228.38.73
+test        5m      IN AAAA  2600:3c03::1d:4100
+test        5m      IN AAAA  2600:3c03::1d:4200
+
+viewport            IN A     96.126.109.21
+viewport            IN AAAA  2600:3c03::f03c:91ff:fe93:972f

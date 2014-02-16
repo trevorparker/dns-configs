@@ -1,0 +1,21 @@
+$ORIGIN trevorparker.net.
+$TTL 1h
+
+@ IN SOA ns2.he.net. dns.trevorparker.com. (
+    2014021600      ; serial
+    1d              ; refresh
+    2h              ; retry
+    4w              ; expire
+    1h              ; min ttl
+)
+
+@                   IN NS    ns2.he.net.
+@                   IN NS    ns3.he.net.
+@                   IN NS    ns4.he.net.
+@                   IN NS    ns5.he.net.
+
+@           5m      IN A     50.116.61.233
+@           5m      IN AAAA  2600:3c03::1d:4700
+
+www         5m      IN A     50.116.61.233
+www         5m      IN AAAA  2600:3c03::1d:4700
