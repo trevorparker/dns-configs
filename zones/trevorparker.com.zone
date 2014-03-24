@@ -2,7 +2,7 @@ $ORIGIN trevorparker.com.
 $TTL 1h
 
 @ IN SOA ns2.he.net. dns.trevorparker.com. (
-    2014021601      ; serial
+    2014032300      ; serial
     1d              ; refresh
     2h              ; retry
     4w              ; expire
@@ -37,11 +37,6 @@ mc          5m      IN A     66.228.38.73
 
 rigel               IN A     50.116.61.233
 rigel               IN AAAA  2600:3c03::1d:4700
-
-test        5m      IN A     96.126.109.21
-test        5m      IN A     66.228.38.73
-test        5m      IN AAAA  2600:3c03::1d:4100
-test        5m      IN AAAA  2600:3c03::1d:4200
 
 viewport            IN A     96.126.109.21
 viewport            IN AAAA  2600:3c03::f03c:91ff:fe93:972f
