@@ -2,7 +2,7 @@ $ORIGIN trevorparker.com.
 $TTL 1h
 
 @ IN SOA ns2.he.net. dns.trevorparker.com. (
-    2014041800      ; serial
+    2014041801      ; serial
     1d              ; refresh
     2h              ; retry
     4w              ; expire
@@ -22,14 +22,8 @@ $TTL 1h
 
 mesmtp._domainkey   IN TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCl0kJuDfycTEp/30iGUezIS289XFHIHWat/OXgbvXeU+tBKrJGr72a6OFR6B7Ycz1Zrxte30pNZbimDEiCShEjnFk+W9U2Z9p9lAwvk92pvIRXkk6Ax7FLPSZJ+sFZQoWU5OF2eamVyLKbKHiNni6CzIFU7x2h12ycCmGwrK3D2QIDAQAB"
 
-@           5m      IN A     50.116.61.233
-@           5m      IN AAAA  2600:3c03::1d:4700
-
 @           5m      IN A     66.228.38.73
 @           5m      IN AAAA  2600:3c03::1d:4100
-
-www         5m      IN A     50.116.61.233
-www         5m      IN AAAA  2600:3c03::1d:4700
 
 www         5m      IN A     66.228.38.73
 www         5m      IN AAAA  2600:3c03::1d:4100
